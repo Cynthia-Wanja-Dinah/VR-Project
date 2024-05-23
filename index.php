@@ -17,15 +17,15 @@
         <!--=============== CSS ===============--> 
         <link rel="stylesheet" href="styles.css">
 
-        <title> Geography hub </title>
+        <title> biology </title>
     </head>
     <body>
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav class="nav container">
                 <a href="#" class="nav__logo">
-                    <img src="assets/img/logo.png" alt="" class="nav__logo-img">
-                   Geography hub
+                    
+                   Biology
                 </a>
 
                 <div class="nav__menu" id="nav-menu">
@@ -49,7 +49,7 @@
                         <i class='bx bx-x'></i>
                     </div>
 
-                    <img src="assets/img/nav-img.png" alt="" class="nav__img">
+                    <img src="assets/img/beat.jpg" alt="" class="nav__img">
                 </div>
 
                 <div class="nav__toggle" id="nav-toggle">
@@ -68,7 +68,7 @@
                         <section class="swiper-slide">
                             <div class="home__content grid">
                                 <div class="home__group">
-                                    <img src="images/rainforest.jpeg" alt="" class="home__img">
+                                    <img src="images/beat.jpg" alt="" class="home__img">
                                     <div class="home__indicator"></div>
     
                                     <div class="home__details-img">
@@ -78,14 +78,13 @@
                                 </div>
     
                                 <div class="home__data">
-                                    <h3 class="home__subtitle">#1 Top Rainforest</h3>
-                                    <h1 class="home__title">UOOOO <br> FLORA OR <br> FAUNA!!</h1>
-                                    <p class="home__description">The Amazon Rainforest, also known as the Amazon Jungle, is one of the Earth's most vital and biodiverse ecosystems. It spans approximately 5.5 million square kilometers across nine South American countries: Brazil, Peru, Colombia, Venezuela, Ecuador, Bolivia, Guyana, Suriname, and French Guiana.
-
+                                    <h3 class="home__subtitle">#The Heart</h3>
+                                    <h1 class="home__title">The  <br> stracture <br> OF A HEART!!</h1>
+                                    <p class="home__description">The heart is a vital organ in the human body, responsible for pumping blood throughout the circulatory system. It is a muscular organ roughly the size of a fist, located in the chest cavity. The heart has four chambers: two atria on the top and two ventricles on the bottom. The right side of the heart receives deoxygenated blood from the body and pumps it to the lungs for oxygenation, while the left side receives oxygenated blood from the lungs and pumps it throughout the body. The heart's rhythmic contractions are controlled by an electrical conduction system, ensuring a continuous and efficient blood flow to sustain life.
                                     </p>
 
                                     <div class="home__buttons">
-                                        <a href="#learn" class="button">VR Experience</a>
+                                        <a href="beat.html" class="button">VR Experience</a>
                                     </div>
                                 </div>
                             </div>
@@ -95,7 +94,7 @@
                         <section class="swiper-slide">
                             <div class="home__content grid">
                                 <div class="home__group">
-                                    <img src="images/desert.jpeg" alt="" class="home__img">
+                                    <img src="images/internal.jpg" alt="" class="home__img">
                                     <div class="home__indicator"></div>
     
                                     <div class="home__details-img">
@@ -105,13 +104,13 @@
                                 </div>
     
                                 <div class="home__data">
-                                    <h3 class="home__subtitle">#2 top Best dunes</h3>
-                                    <h1 class="home__title">BIG  <br> DADDY</h1>
-                                    <p class="home__description">Sossusvlei, situated in the Namib Desert, is home to some of the world's highest dunes, with some towering over 300 meters (984 feet). The vivid red and orange hues of the sand create a striking contrast against the deep blue sky. Deadvlei, a white clay pan surrounded by these towering dunes and dotted with ancient, dead camel thorn trees, adds to the surreal beauty of the area. Climbing the famous "Big Daddy" dune offers panoramic views of this extraordinary landscape.
+                                    <h3 class="home__subtitle">#2 internal stractures</h3>
+                                    <h1 class="home__title">LEARN  <br> ABOUT YOUR BODY</h1>
+                                    <p class="home__description">Internal organs are crucial for maintaining life and health. The brain controls bodily functions, while the heart pumps blood to deliver oxygen and nutrients. Lungs handle gas exchange, and the liver detoxifies and aids digestion. Kidneys filter blood and regulate fluids, and the stomach and intestines digest and absorb nutrients. Each organ's coordinated function ensures the body's overall well-being.
                                     </p>
 
                                     <div class="home__buttons">
-                                        <a href="#learn" class="button">VR Experience</a>
+                                        <a href="inte.html" class="button">VR Experience</a>
                                     </div>
                                 </div>
                             </div>
@@ -143,33 +142,34 @@
 
             <!--==================== TRICK OR TREAT ====================-->
             <section class="section trick" id="learn">
-                <h2 class="section__title">Learn Geography</h2>
+                <h2 class="section__title">Learn </h2>
 
                 <div class="trick__container container grid">
                     <div class="trick__content">
-                        <img src="images/rainforest.jpeg" alt="" class="trick__img">
-                        <h3 class="trick__title">Rainforests</h3>
-                        <span class="trick__subtitle">   <a href="learn.php">Environment</a></span>
+                        <img src="images/brain.jpg" alt="" class="trick__img">
+                        <h3 class="trick__title">Brain</h3>
+                        <span class="trick__subtitle">   <a href="support.php">Learn</a></span>
                         <button class="button trick__button">
                          
                         </button>
                     </div>
 
                     <div class="trick__content">
-                        <img src="images/desert.jpeg" alt="" class="trick__img">
-                        <h3 class="trick__title">Desert</h3>
-                        <span class="trick__subtitle"><a href="desert.php">Dunes</a></span>
+                        <img src="images/het.jpg" alt="" class="trick__img">
+                        <h3 class="trick__title">Heart</h3>
+                        <span class="trick__subtitle"><a href="support.php">learn</a></span>
                         <button class="button trick__button">
                             <i>   </i>
                         </button>
                     </div>
 
                     <div class="trick__content">
-                        <img src="images/P2.jpg" alt="" class="trick__img">
-                        <h3 class="trick__title">Beaches</h3>
-                        <span class="trick__subtitle"><a href="desert.php">Lagoon</a></span>
+                        <img src="images/int.jpg" alt="" class="trick__img">
+                        <h3 class="trick__title">internal Organs</h3>
+                        <span class="trick__subtitle"><a href="support.php">learn</a></span>
                     </div>
 
+                   
                 </div>
             </section>
             

@@ -8,169 +8,223 @@
 
 
 body{
-    background-image: url(images/mental.jpg);
+    background-color: grey;
     background-repeat: no-repeat;
     background-size: cover;
     
 }
-        /* Container styles */
-        .topic-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr); /* Three columns */
-            gap: 20px; /* Gap between grid items */
-            padding: 20px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
+#topics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top: 200px;
+}
 
-        /* Topic styles */
-        .topic {
-            background-color: #f9f9f9;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border: 1px;
-        }
+.article-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 20px;
+}
 
-        .topic h2 {
-            margin-top: 0;
-            font-size: 20px;
-        }
+.article {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
 
-        .topic p {
-            margin-bottom: 10px;
-        }
 
-        .topic a {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-        }
+.article img {
+  width: 100%;
+  height: auto;
+}
 
-        .topic a:hover {
-            background-color: #0056b3;
-        }
+.article-container:nth-child(2) .article img {
+  width: 80%;
+  height: 40vh;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4db35e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+ 
     </style>
+
+<link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
+     <!--==================== HEADER ====================-->
+<header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/logo.png" alt="" class="nav__logo-img">
+                   Geography hub
+                </a>
 
-    <h1 style="color: white;">What you  can do for your mental Health</h1>
-    <div class="topic-container">
-        <!-- Topic 1 -->
-        <div class="topic">
-            <h2>Mental capacity</h2>
-            <p>The causes and potential consequences of a lack of mental capacity, and how you can plan ahead.</p>
-            <a href="https://www.mentalhealth.org.uk/explore-mental-health/a-z-topics/mental-capacity">Learn more</a>
-        </div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
 
-        <!-- Topic 2 -->
-        <div class="topic">
-            <h2>Mindfulness</h2>
-            <p>The benefits of mindfulness and how to practice it.</p>
-            <a href="https://www.mentalhealth.org.uk/explore-mental-health/a-z-topics/mindfulness">Learn more</a>
-        </div>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
 
-        <!-- Topic 3 -->
-        <div class="topic">
-            <h2>Self-management of mental ill-health</h2>
-            <p>What self-management is and how self-management courses work.</p>
-            <a href="https://www.mentalhealth.org.uk/explore-mental-health/a-z-topics/self-management-mental-ill-health">Learn more</a>
-        </div>
+                        <li class="nav__item">
+                            <a href="#learn" class="nav__link">Learn</a>
+                        </li>
 
-        <!-- Topic 4 -->
-        <div class="topic">
-            <h2>Prevention and mental health</h2>
-            <p>What prevention means, preventative measures to help yourself, and changes society can make to prevent mental health problems.</p>
-            <a href="https://www.mentalhealth.org.uk/explore-mental-health/publications">Learn more</a>
-        </div>
+                        <a href="#quiz" class="button button--ghost">Quizzes & Puzzles</a>
+                    </ul>
 
-       
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <img src="assets/img/nav-img.png" alt="" class="nav__img">
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <main class="main">
+
+
+<div>
+<h1>Biology Topics</h1>
+</div>
+
+<section id="topics">
+
+<div class="article-container">
+    <div class="article">
+        <img src="images\brain.jpg" alt="Understanding Anxiety Disorders">
+        <h3>Brain</h3>
+        <a href="desert.php" class="button">Read More</a>
+        <a href="brain.html" class="button">Take a quiz</a>
+    </div>
+    <!-- Add more articles here -->
+</div>
+
+<div class="article-container">
+    <div class="article">
+        <img src="images\heart.avif" alt="Understanding Anxiety Disorders">
+        <h3>Heart</h3>
+        <a href="heart.php" class="button">Read More</a>
+        <a href="heart.html" class="button">Take a quiz</a>
+    </div>
+    <!-- Add more articles here -->
+</div>
+<div class="article-container">
+    <div class="article">
+        <img src="images\human.jpg" alt="Understanding Anxiety Disorders">
+        <h3>Internal Stractures</h3>
+        <a href="internal.php" class="button">Read More</a>
+        <a href="internal.html" class="button">Take a quiz</a>
     </div>
 
+    
+    <!-- Add more articles here -->
+</div>
 
-    <h1 style="color: white;">Seeking External support</h1>
-    <div class="topic-container">
-        <!-- Topic 1 -->
-        <div class="topic">
-            <h2>peer support</h2>
-            <p>Different types of peer support, what peer support can help with and how to find peer support.</p>
-            <a href="#">Learn more</a>
-        </div>
+</section>
 
-        <!-- Topic 2 -->
-        <div class="topic">
-            <h2>Talking Therapies</h2>
-            <p>Who can benefit from talking therapy, different types of talking therapy, how to find a therapist and what happens in talking therapy.</p>
-            <a href="#">Learn more</a>
-        </div>
+<!--==================== FOOTER ====================-->
+<footer class="footer section">
+                <div class="footer__container container grid">
+                    <div class="footer__content">
+                        <a href="#" class="footer__logo">
+                            <img src="assets/img/logo.png" alt="" class="footer__logo-img">
+                          Geography Hub
+                        </a>
 
-        <!-- Topic 3 -->
-        <div class="topic">
-            <h2>Medication for mental health problems</h2>
-            <p>The different types of medication and how to decide which, if any, is the right one for you.</p>
-            <a href="#">Learn more</a>
-        </div>
+                        <p class="footer__description">Enjoy the adventure <br> of your life.</p>
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-facebook'></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-instagram-alt' ></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-twitter' ></i>
+                            </a>
+                        </div>
+                    </div>
 
-        <!-- Topic 4 -->
-        <div class="topic">
-            <h2>Cognitive behavioural therapy (CBT)</h2>
-            <p>What CBT is, how it is different to other therapies, and what CBT can help with.</p>
-            <a href="#">Learn more</a>
-        </div>
+                    <div class="footer__content">
+                        <h3 class="footer__title">About</h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Features</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">News</a>
+                            </li>
+                        </ul>
+                    </div>
 
-        <!-- Topic 5 -->
-        <div class="topic">
-            <h2>Online mental health support</h2>
-            <p>All kinds of online support are available - information and apps, one-to-one support and therapy, self-help programs and communities.</p>
-            <a href="#">Learn more</a>
-        </div>
+                    <div class="footer__content">
+                        <h3 class="footer__title">Learn</h3>
+                    </div>
 
-       
-    </div>
+                    <div class="footer__content">
+                        <h3 class="footer__title">Quizzes</h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Questions</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Articles</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <span class="footer__copy">&#169; Geography hub. All rigths reserved</span>
+
+                <img src="assets/img/footer1-img.png" alt="" class="footer__img-one">
+                <img src="assets/img/footer2-img.png" alt="" class="footer__img-two">
+            </footer>
+
+            <!--=============== SCROLL UP ===============-->
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+            </a>
+        
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
 
 
-    <h1  style="color: white;">During crisis </h1>
-    <div class="topic-container">
-        <!-- Topic 1 -->
-        <div class="topic">
-            <h2>Crisis care</h2>
-            <p>Anxiety disorders are a group of mental health conditions characterized by excessive worrying, fear, and nervousness.</p>
-            <a href="https://www.mentalhealth.org.uk/explore-mental-health/a-z-topics/crisis-care">Learn more</a>
-        </div>
 
-        <!-- Topic 2 -->
-        <div class="topic">
-            <h2>Suicidal thoughts</h2>
-            <p>Depression is a mood disorder that causes persistent feelings of sadness, loss of interest, and hopelessness.</p>
-            <a href="https://www.mentalhealth.org.uk/explore-mental-health/a-z-topics/suicidal-thoughts">Learn more</a>
-        </div>
-
-        <!-- Topic 3 -->
-        <div class="topic">
-            <h2>Finance, housing and unemployment worries</h2>
-            <p>Stress management involves techniques and strategies to cope with and reduce stress in daily life.</p>
-            <a href="https://www.mentalhealth.org.uk/explore-mental-health/articles/finance-housing-and-unemployment-worries">Learn more</a>
-        </div>
-
-        <!-- Topic 4 -->
-        <div class="topic">
-            <h2>Change, loss and bereavement</h2>
-            <p>We have all been through challenging times following change, loss and bereavement. We offer suggestions of things you can do to help cope with any difficult feelings you may experience while adjusting.</p>
-            <a href="https://www.mentalhealth.org.uk/explore-mental-health/articles/change-loss-bereavement">Learn more</a>
-        </div>
-        <div class="topic">
-            <h2>Tips to look after your mental health during scary world events</h2>
-            <p>Learning about global events can cause uncertainty, and you may feel fear, anxiety or a loss of control over your own life. We have created some advice to help you cope and support your loved ones during these uncertain times.
-
-</p>
-            <a href="https://www.mentalhealth.org.uk/explore-mental-health/articles/tips-look-after-your-mental-health-during-scary-world-events">Learn more</a>
-        </div>
-
-        <!-- Topic 5 -->
-       
-    </div>
 </body>
 </html>

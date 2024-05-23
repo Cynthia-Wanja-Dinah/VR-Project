@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR Video with A-Frame</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <!-- Add a videosphere to play the VR video -->
+        <a-videosphere src="#vr-video" rotation="0 -90 0"></a-videosphere>
+
+        <!-- Add a camera -->
+        <a-camera position="0 1.6 0"></a-camera>
+    </a-scene>
+
+    <!-- Define the video element -->
+    <video id="vr-video" loop="true" autoplay="true" crossorigin="anonymous" webkit-playsinline playsinline>
+        <source src="heart.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
