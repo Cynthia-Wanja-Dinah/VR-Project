@@ -35,7 +35,7 @@
                         </li>
 
                         <li class="nav__item">
-                            <a href="#about" class="nav__link">About</a>
+                            <a href="#about" class="nav__link">Other</a>
                         </li>
 
                         <li class="nav__item">
@@ -124,24 +124,24 @@
 
             <!--==================== ABOUT ====================-->
             <section class="section about" id="about">
-                <h2 class="section__title">About</h2>
+                <h2 class="section__title">Other</h2>
                  <div class="category__container container grid">
                     <div class="category__data">
                         <img src="images" alt="" class="category__img">
-                        <h3 class="category__title">Virtual Tours</h3>
-                        <p class="category__description"> Embark on guided tours led by expert narrators who bring each destination to life with captivating stories and insights.</p>
+                        <h3 class="category__title">Optics</h3>
+                        <p class="category__description">Optics is the branch of physics that studies the behavior and properties of light. It encompasses the study of reflection, refraction, diffraction, interference, polarization, and the formation of images by lenses and mirrors.</p>
                     </div>
 
                     <div class="category__data">
                         <img src="assets/images/category2-img.png" alt="" class="category__img">
-                        <h3 class="category__title">Educational Modules</h3>
-                        <p class="category__description">Access comprehensive modules covering a wide range of Physics topics, complete with interactive experiments, infographics, and VR experiences.</p>
+                        <h3 class="category__title">Thermodynamics</h3>
+                        <p class="category__description">Thermodynamics is the branch of physics that deals with the study of heat, work, and energy transfer in physical systems.</p>
                     </div>
 
                     <div class="category__data">
                         <img src="assets/img/category3-img.png" alt="" class="category__img">
-                        <h3 class="category__title">360-Degree Videos</h3>
-                        <p class="category__description">Experience the full panorama of each location with our high-definition 360-degree videos, making you feel like you're truly there.</p>
+                        <h3 class="category__title">Waves</h3>
+                        <p class="category__description">In physics, waves are disturbances that propagate through a medium or space, transferring energy without permanently displacing the medium itself. </p>
                     </div>
                 </div>
             </section>
